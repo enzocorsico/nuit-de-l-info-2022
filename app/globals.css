@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/***** ADVENTURE Page *****/
+.container-adventure {
+  height: 80vh;
+}
+
+.logo-mc-button {
+  transform: translate(-79%, -15%);
+}
+
+/* Minecraft Style Button */
+.container-mc-button {
+  width: 40%;
+  max-width: 650px;
+}
+
+.container-mc-button a {
+  width: 100%;
+}
+
+.mc-button {
+  height: 50pt;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
+  background: #999 url("https://i.ibb.co/rb2TWXL/bgbtn.png") center/cover;
+  image-rendering: pixelated;
+  border: 2px solid #000;
+}
+
+.mc-button:hover .mc-title {
+  background-color: rgba(100, 100, 255, 0.45);
+  text-shadow: 2px 2px #202013cc;
+  color: #ffffa0;
+}
+
+.mc-button:active .mc-title {
+  box-shadow: inset -2px -4px #0004, inset 2px 2px #fff5;
+}
+
+.mc-button .mc-title {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  text-shadow: 2px 2px #000a;
+  box-shadow: inset -2px -4px #0006, inset 2px 2px #fff7;
+}
+
+.mc-button.lang img {
+  width: 26px;
+  height: 26px;
+}
+
+.mc-button.lang .mc-title {
+  padding-bottom: 0;
+}

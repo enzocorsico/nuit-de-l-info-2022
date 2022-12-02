@@ -1,0 +1,721 @@
+import Image from "next/image";
+
+interface Props {
+    handleSendDialog: (object: {nom: string, text: string}[]) => any;
+}
+
+const Rue = (props: Props) => {
+
+    const handleClick = () => {
+        props.handleSendDialog([
+            {
+                nom: "Narrateur",
+                text: "Le héro se rend a la pharmacie" 
+            },
+            {
+                nom: "Héro",
+                text: "Hé mais c'est mon ami(e)"
+            },
+            { 
+                nom: "Ami(e)",
+                text: "Salut, comment ça va ?" 
+            },            
+            {
+                nom: "Héro",
+                text: "Bien et toi ? Je vais à la pharmacie chercher des protections pour ce soir avec mon copain/ma copine !"
+            },
+            {
+                nom: "Ami(e)",
+                text: "Des protections ? bahaahaha mais ça sert à rien regarde moi et ma copine on en utilise pas et on a jamais eu de problèmes !"
+            },
+            {
+                nom: "Héro",
+                text: "ha bon ? Je vais demander à la pharmacie pour être sûr, je ne veux pas prendre de risque inutile."
+            },
+        ]);
+    }
+
+
+
+    return (
+        <div className="flex flex-col relative w-2/3 mx-auto">
+            <Image src="/out.png" className="absolute" alt="img" width="600" height="600" />
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100" onClick={e => handleClick()}><Image src="/perso1.png" className="absolute" alt="img" width="24" height="24" /></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100" onClick={e => handleClick()}><Image src="/perso3.png" className="absolute" alt="img" width="24" height="24" /></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div><div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+            <div className="flex z-10">
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+                <div className="w-6 h-6 border-black-100"></div>
+            </div>
+        </div>
+    );
+};
+
+export default Rue;
